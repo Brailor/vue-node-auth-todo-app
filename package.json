@@ -1,0 +1,25 @@
+{
+  "name": "music-app",
+  "version": "1.0.0",
+  "description": "Generate music playlist easily with youtube.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "music"
+  ],
+  "author": "Viktor Ohád",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.17.1",
+    "cors": "^2.8.3",
+    "express": "^4.15.2",
+    "jsonwebtoken": "^7.4.0",
+    "jsonwebtoken-refresh": "^5.7.0",
+    "mongoose": "^4.9.9",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.2.1"
+  }
+}
